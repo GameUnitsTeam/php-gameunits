@@ -19,5 +19,5 @@ Usage
 use gameunits\PHPGameunits\GameUnits;
 
 $gameunits = new GameUnits('rpcuser', 'rpcpassword');
-$info = $bgameunits->getinfo(); // Same as $gameunits->callMethod('getinfo');
+$info = $gameunits->getinfo(); // Same as $gameunits->callMethod('getinfo');
 ```
